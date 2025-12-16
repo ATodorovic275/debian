@@ -1,5 +1,6 @@
 sudo apt update
 sudo apt upgrade
-sudo apt install nala timeshift
+sudo apt install nala curl timeshift
 sudo nala fetch
-sudo timeshift crate
+sudo timeshift --crate
+curl -fsS https://dl.brave.com/install.sh | sh
